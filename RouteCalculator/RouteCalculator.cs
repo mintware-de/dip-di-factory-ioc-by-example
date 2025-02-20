@@ -1,3 +1,5 @@
+using Contracts;
+
 namespace RouteCalculator;
 
 public class RouteCalculator : IRouteCalculator
