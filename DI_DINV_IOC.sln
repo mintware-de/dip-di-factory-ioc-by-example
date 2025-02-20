@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteCalculator", "RouteCal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{60184B38-9EF7-4754-9ACD-3E5898195FCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorFactory", "CalculatorFactory\CalculatorFactory.csproj", "{DF5B2AFD-D78F-4E06-B619-8C06C34BEFEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{60184B38-9EF7-4754-9ACD-3E5898195FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60184B38-9EF7-4754-9ACD-3E5898195FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60184B38-9EF7-4754-9ACD-3E5898195FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF5B2AFD-D78F-4E06-B619-8C06C34BEFEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5B2AFD-D78F-4E06-B619-8C06C34BEFEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5B2AFD-D78F-4E06-B619-8C06C34BEFEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5B2AFD-D78F-4E06-B619-8C06C34BEFEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
