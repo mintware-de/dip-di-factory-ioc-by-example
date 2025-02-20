@@ -1,4 +1,4 @@
-namespace RouteCalculator;
+namespace Contracts;
 
 public interface IRouteCalculator
 {
