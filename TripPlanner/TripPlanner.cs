@@ -4,9 +4,14 @@ namespace TripPlanner;
 
 public class TripPlanner
 {
-    private readonly IRouteCalculator _routeCalculator = new RouteCalculator.RouteCalculator();
+    private readonly IRouteCalculator _routeCalculator;
 
     private readonly Gps _gps = new Gps();
+
+    public TripPlanner()
+    {
+        _routeCalculator = CalculatorFactory.CalculatorFactory.Create();
+    }
 
     public void PlanTripFromCurrentLocation(string destination)
     {
