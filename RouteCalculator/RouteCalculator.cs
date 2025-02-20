@@ -1,6 +1,6 @@
 namespace RouteCalculator;
 
-public class RouteCalculator
+public class RouteCalculator : IRouteCalculator
 {
     public void CalculateRoute(string start, string destination)
     {

@@ -1,8 +1,10 @@
+using RouteCalculator;
+
 namespace TripPlanner;
 
 public class TripPlanner
 {
-    private readonly RouteCalculator.RouteCalculator _routeCalculator = new RouteCalculator.RouteCalculator();
+    private readonly IRouteCalculator _routeCalculator = new RouteCalculator.RouteCalculator();
 
     private readonly Gps _gps = new Gps();
 
